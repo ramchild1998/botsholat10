@@ -1,16 +1,16 @@
 <?php
 /*
 copyright @ medantechno.com
-Modified @ Farzain - zFz
-2017
+Modified @ Ramadiansyah - Ramcult
+2018
 
 */
 
 require_once('./line_class.php');
 require_once('./unirest-php-master/src/Unirest.php');
 
-$channelAccessToken = 'R1Zc2y3y/0F9ayIUC6r7lhQpBDZkJ9fJ3unyI+J5uPYU3EPO3Rgo5aHl6iZ42lNGBdb2BFU22iCKzzzllpVJ5gRr4mU0svgC1XyzepxZNjIkvaVKkucKvYfnINX620dZsoaP45BpA9CuXDwTx7IAzgdB04t89/1O/w1cDnyilFU='; //sesuaikan 
-$channelSecret = 'ae66dfe49a5b9bceaa2aaec7efdd6941';//sesuaikan
+$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
+$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
